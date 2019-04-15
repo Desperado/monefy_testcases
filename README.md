@@ -1,7 +1,6 @@
 # Functionality matrix
 ## Expenses
 Add any kind of expense using the app. Verify that the percentage is distributed accordingly.
-### Test cases    
 * verify that adding note works.
 * verify that it is possible to change the account while adding the expense.
 * verify that it is possible to change the category while adding the expense.
@@ -12,6 +11,7 @@ Add any kind of expense using the app. Verify that the percentage is distributed
 
 ## Types of income
 Add all 3 standard types of income: deposits, salary and savings.
+### Test cases
 * verify that it is possible to add any deposit income
 * verify that it is possible to add any salary income
 * verify that it is possible to add any savings income
@@ -21,19 +21,20 @@ Check using the calendar function
 * **day**. Verify that change of day works and that expenses for each day are individual.
 * **week**. Verify that change of week works, and the expenses don’t overlap. also that week sums up amounts for the days accordingly.
 * **month**. Verify that change of month works, and the expenses don’t overlap. also that month sums up amounts for the weeks and days accordingly.
-* **year**. Verify that change of year works, and the expenses don’t overlap. also that year sums up amounts for the months, weeks and days accordingly.
+* **year**. Verify that change of year works, and the expenses don’t overlap. also that year sums up amounts for the months, weeks and days accordingly
 
 ## Account
-Verify that it is changing of the account works.
+Verify that it is changing of the account works
 
 ## Balance View
-Verify that the amount of added expenses sums up and number of added expenses for each category is correct.
+Verify that the amount of added expenses sums up and number of added expenses for each category is correct
 ## Calculator
-Verify using the calculator while adding the expenses.
+Verify using the calculator while adding the expenses
 ## Transfers
-Verify that transfer functionality works between accounts.
+Verify that transfer functionality works between accounts
 ## Currencies
-Verify that change of currency works.
+Verify that change of currency works
+### Test cases
 * Verify that changing of currencies works in all affected areas
 ## Unlock paid app
 Verify that unlock of the app works in several ways:
