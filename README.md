@@ -12,7 +12,6 @@ Add any kind of expense using the app. Verify that the percentage is distributed
 
 ## Types of income
 Add all 3 standard types of income: deposits, salary and savings.
-### Test cases
 * verify that it is possible to add any deposit income
 * verify that it is possible to add any salary income
 * verify that it is possible to add any savings income
