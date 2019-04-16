@@ -1,4 +1,5 @@
-# Functionality matrix
+# Monefy app Functionality matrix (in order of importance)
+
 ## Expenses
 Add any kind of expense using the app. Verify that the percentage is distributed accordingly.
 * verify that adding note works.
@@ -32,10 +33,11 @@ Verify that the amount of added expenses sums up and number of added expenses fo
 Verify using the calculator while adding the expenses
 ## Transfers
 Verify that transfer functionality works between accounts
-## Currencies
-Verify that change of currency works
-### Test cases
-* Verify that changing of currencies works in all affected areas
+* verify that it is not possible to transfer from the same account 
+* verify that all cases passes for calendar and math operations
+* verify that adding new transfer to another account source saves it with correct information
+* verify that it is possible to save transfer and undo it correctly                                                       
+* verify that it is not possible to save transfer with negative value
 ## Unlock paid app
 Verify that unlock of the app works in several ways:
 * through direct clicking of Unlock Monefy Pro using the settings
@@ -52,6 +54,9 @@ Verify that paid features work.
 * verify that it is possible to change to dark theme and back
 * verify that it is possible to add new category
 * verify that it is possible to add new payment source
+## Currencies
+Verify that change of currency works
+* Verify that changing of currencies works in all affected areas
 ## Settings
 Verify that all of the settings work:
 * change of language
